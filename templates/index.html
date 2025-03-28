@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SentiMantra - Emotion Detection</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="/static/image.png" alt="SentriMantra Logo" class="logo">
+            <h1>SentiMantra</h1>
+        </div>
+        <div class="tagline">
+            <h2>Boost Your Emotions With Us</h2>
+            <p>Unlock the power of AI to understand and enhance your emotional well-being</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h3>Discover Your Emotions</h3>
+                <p>Our advanced AI analyzes facial expressions to detect your current emotional state and provides personalized feedback.</p>
+                <button id="startDetection" class="cta-button">Start Emotion Detection</button>
+            </div>
+            <div class="hero-image">
+                <div class="camera-container">
+                    <video id="video" width="640" height="480" autoplay></video>
+                    <canvas id="canvas" width="640" height="480"></canvas>
+                </div>
+                <div id="emotionResult" class="result-container">
+                    <div id="emotionDisplay"></div>
+                    <div id="quoteDisplay"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <h3>Why Choose SentiMantra?</h3>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <i class="fas fa-bolt"></i>
+                    <h4>Real-Time Detection</h4>
+                    <p>Live webcam analysis with instant emotion recognition</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-smile"></i>
+                    <h4>Multi-Emotion Recognition</h4>
+                    <p>Detects happiness, sadness, anger, surprise & more</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-heart"></i>
+                    <h4>Mood Boosters</h4>
+                    <p>Get motivational quotes tailored to your emotional state</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h4>Privacy Focused</h4>
+                    <p>Runs locally without storing your personal data</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="how-it-works">
+            <h3>How It Works</h3>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <p>Allow camera access when prompted</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <p>Look at the camera with a natural expression</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <p>Our AI analyzes your facial features</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <p>Get instant emotion detection results</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2023 SentriMantra - Emotion Detection System</p>
+        <p>Powered by AI and Deep Learning</p>
+    </footer>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
