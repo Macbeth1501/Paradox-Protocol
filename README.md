@@ -1,2 +1,2 @@
-# SentriMantra
-Discover the universe of emotions with a single glimpse with SentriMantra, whether you're pleased or in need of a mood boost.  SentriMantra employs facial recognition to identify and comprehend your emotions, whether pleased or sad.  Simply turn on the webcam , and the webpage will instantly analyze your face to reveal how you are feeling and if you are sad it will tell u some means to uplift your mood.
+# SentiMantra
+Discover the universe of emotions with a single glimpse with SentiMantra, whether you're pleased or in need of a mood boost.  SentiMantra employs facial recognition to identify and comprehend your emotions, whether pleased or sad.  Simply turn on the webcam , and the webpage will instantly analyze your face to reveal how you are feeling and if you are sad it will tell u some means to uplift your mood.
